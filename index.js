@@ -20,9 +20,18 @@ function createCircle(radius,x,y){
         }
     }
 }
-
+//constructor function 
+function Circle(radius){
+    this.radius = radius;
+    this.draw = function (){
+        console.log('draw constructor');
+    } 
+}
 const circle1= createCircle(1,1,1);
+const another = new Circle(5);
+console.log(another);
 circle.draw();
 circle1.draw();
+another.draw();
 
 
