@@ -41,11 +41,11 @@ let y = x;
 
 x.value=20;*/
 
-let number =10;
+let obj ={value: 10};
 
-function inscrease(number){
-    number++;
+function inscrease(obj){
+    obj.value++;
 }
 
-inscrease(number);
-console.log(number);
+inscrease(obj);
+console.log(obj);
