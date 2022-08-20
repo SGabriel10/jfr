@@ -27,11 +27,15 @@ function Circle(radius){
         console.log('draw constructor');
     } 
 }
+/*
 const circle1= createCircle(1,1,1);
 const another = new Circle(5);
 console.log(another);
 circle.draw();
 circle1.draw();
 another.draw();
+*/
+let x = {value: 10};
+let y = x;
 
-
+x.value=20;
