@@ -35,7 +35,17 @@ circle.draw();
 circle1.draw();
 another.draw();
 */
+/*
 let x = {value: 10};
 let y = x;
 
-x.value=20;
+x.value=20;*/
+
+let number =10;
+
+function inscrease(number){
+    number++;
+}
+
+inscrease(number);
+console.log(number);
